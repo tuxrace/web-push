@@ -15,7 +15,7 @@ self.addEventListener('push', function(event) {
   console.log('Push message', event);
 
   var title = 'New computer virus';
-
+  
   event.waitUntil(
     self.registration.showNotification(title, {
       'body': 'Installing virus now...',

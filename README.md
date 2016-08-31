@@ -1,3 +1,3 @@
     npm install
 	npm start
-	https://localhost:3443
+	http://localhost:3000
